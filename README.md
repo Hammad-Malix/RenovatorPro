@@ -11,6 +11,15 @@ npm run dev
 
 Run `npm run build` to create a production build.
 
+## GitHub Pages deployment
+
+The workflow in `.github/workflows/deploy.yml` builds and deploys the site
+when changes are pushed to `main` or `master`. In the repository settings,
+select **Settings → Pages → Build and deployment → GitHub Actions**. Vite
+automatically uses the repository subpath for project Pages and `/` for a
+`username.github.io` site. You can also run the workflow manually from the
+Actions tab.
+
 ## Source structure
 
 - `src/components/` - reusable React components

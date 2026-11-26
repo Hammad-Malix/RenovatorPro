@@ -1,0 +1,102 @@
+.build-process__content {
+  width: min(100%, 80rem);
+  justify-self: center;
+}
+
+.build-process__eyebrow {
+  margin: 0 0 var(--space-2);
+  color: var(--color-accent);
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-bold);
+  text-transform: uppercase;
+}
+
+.build-process__content > h2 {
+  margin-bottom: var(--space-10);
+}
+
+.build-process__steps {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: var(--space-4);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.build-process__steps::before {
+  position: absolute;
+  top: 1rem;
+  right: 12.5%;
+  left: 12.5%;
+  height: 2px;
+  background-color: var(--color-border);
+  content: '';
+}
+
+.build-process__step {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  align-content: start;
+  justify-items: center;
+  gap: var(--space-4);
+  text-align: center;
+}
+
+.build-process__number {
+  display: grid;
+  width: 2.125rem;
+  height: 2.125rem;
+  place-items: center;
+  border: 2px solid var(--color-accent);
+  border-radius: var(--radius-pill);
+  color: var(--color-background);
+  background-color: var(--color-accent);
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-bold);
+}
+
+.build-process__details h3 {
+  margin: 0 0 var(--space-2);
+  font-size: var(--font-size-lg);
+}
+
+.build-process__details p {
+  margin: 0;
+  color: var(--color-text-muted);
+  font-size: var(--font-size-sm);
+  line-height: var(--line-height-normal);
+}
+
+@media (max-width: 640px) {
+  .build-process__content > h2 {
+    margin-bottom: var(--space-8);
+  }
+
+  .build-process__steps {
+    grid-template-columns: 1fr;
+    gap: var(--space-6);
+  }
+
+  .build-process__steps::before {
+    top: 1rem;
+    bottom: 1rem;
+    left: 1rem;
+    width: 2px;
+    height: auto;
+  }
+
+  .build-process__step {
+    grid-template-columns: 2.125rem minmax(0, 1fr);
+    align-items: start;
+    justify-items: start;
+    gap: var(--space-4);
+    text-align: left;
+  }
+
+  .build-process__details {
+    padding-top: var(--space-1);
+  }
+}

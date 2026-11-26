@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420">
+  <rect width="640" height="420" fill="#e9eee9"/>
+  <rect y="0" width="640" height="300" fill="#f3f4ef"/>
+  <rect y="300" width="640" height="120" fill="#c6b69e"/>
+  <rect x="54" y="52" width="150" height="112" fill="#d8e6e2" stroke="#fff" stroke-width="8"/>
+  <path d="M129 52v112M54 108h150" stroke="#fff" stroke-width="6"/>
+  <rect x="68" y="205" width="502" height="37" fill="#f7f5ef"/>
+  <rect x="78" y="242" width="210" height="115" fill="#d9e3dc"/>
+  <rect x="302" y="242" width="255" height="115" fill="#d9e3dc"/>
+  <path d="M178 242v115M409 242v115" stroke="#a9b8ad" stroke-width="5"/>
+  <rect x="305" y="150" width="153" height="25" fill="#f7f5ef"/>
+  <path d="M330 205v-19h46v19" fill="none" stroke="#8b9990" stroke-width="5"/>
+  <text x="32" y="390" fill="#26372e" font-family="Arial, sans-serif" font-size="24" font-weight="700">DEMO ILLUSTRATION / AFTER</text>
+</svg>

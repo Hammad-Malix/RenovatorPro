@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420">
+  <rect width="640" height="420" fill="#d7d1c9"/>
+  <rect width="640" height="300" fill="#b8b2a8"/>
+  <rect y="300" width="640" height="120" fill="#8a8177"/>
+  <path d="M0 100h640M0 200h640M160 0v300M320 0v300M480 0v300" stroke="#91897f" stroke-width="4"/>
+  <rect x="70" y="45" width="165" height="105" fill="#aaa99e" stroke="#77746e" stroke-width="7"/>
+  <rect x="378" y="55" width="170" height="145" rx="8" fill="#d7d2ca" stroke="#766f68" stroke-width="8"/>
+  <rect x="90" y="224" width="225" height="35" fill="#72695f"/>
+  <rect x="110" y="259" width="184" height="77" fill="#897f73"/>
+  <rect x="420" y="230" width="105" height="68" fill="#92887d"/>
+  <text x="32" y="390" fill="#fff" font-family="Arial, sans-serif" font-size="24" font-weight="700">DEMO ILLUSTRATION / BEFORE</text>
+</svg>
